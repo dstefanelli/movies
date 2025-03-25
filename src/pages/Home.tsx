@@ -1,5 +1,5 @@
-import Media from "../features/media/Media"
+import MediaSearch from "../features/media/MediaSearch"
 
 export default function Home() {
-  return <Media search="batman" type="movie" />
+  return <MediaSearch />
 }

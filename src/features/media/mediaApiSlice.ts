@@ -1,9 +1,10 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
-import { MediaItem, MediaApiResponse } from "../../types/media"
+import { MediaApiResponse } from "../../types/media"
+import { i } from "vitest/dist/reporters-w_64AS5f.js"
 
 export const mediaApi = createApi({
   reducerPath: "mediaApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "" }),
+  baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_API_URL }),
   endpoints: builder => ({
     searchMedia: builder.query<
       MediaApiResponse,

@@ -1,5 +1,5 @@
-import Media from "../features/media/Media"
+import MediaSearch from "../features/media/MediaSearch"
 
 export default function Movies() {
-  return <Media search="jurassic" type="movie" />
+  return <MediaSearch type="movie" />
 }

@@ -1,5 +1,5 @@
-import Media from "../features/media/Media"
+import MediaSearch from "../features/media/MediaSearch"
 
 export default function Series() {
-  return <Media search="sherlock" type="series" />
+  return <MediaSearch type="series" />
 }

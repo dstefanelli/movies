@@ -7,7 +7,7 @@ export function MainLayout({ children }: { children: React.ReactNode }) {
     <div className="main-layout">
       <Header />
       <BannerTop text="Popular Titles" />
-      <main className="container mx-auto pt-16 px-4">{children}</main>
+      <main>{children}</main>
       <Footer />
     </div>
   )

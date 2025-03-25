@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.media-wrapper {
+  min-height: calc(100vh - 324px);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-float infinite 3s ease-in-out;
