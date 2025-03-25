@@ -6,10 +6,12 @@ import imgTwitter from "@/assets/social/twitter-white.svg"
 import imgInstagram from "@/assets/social/instagram-white.svg"
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear()
+
   return (
     <footer className="footer fixed left-0 right-0 bottom-0 bg-gray-900">
       <div className="container mx-auto p-4">
-        <nav className="mb-5">
+        <nav className="mb-2">
           <ul className="flex gap-4 mb-5">
             <li>
               <a className="text-white" href="#">
@@ -58,6 +60,9 @@ export default function Footer() {
             </li>
           </ul>
         </nav>
+        <div className="mb-8 text-white">
+          Copyright © {currentYear} Streaming. All Righs Reserved.
+        </div>
         <div className="flex justify-between">
           <nav className="social-media basis-auto">
             <ul className="flex justify-start gap-4">

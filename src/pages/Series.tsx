@@ -1,3 +1,5 @@
+import Media from "../features/media/Media"
+
 export default function Series() {
-  return <h1>Series</h1>
+  return <Media search="sherlock" type="series" />
 }

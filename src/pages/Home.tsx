@@ -1,3 +1,5 @@
+import Media from "../features/media/Media"
+
 export default function Home() {
-  return <h1>Home</h1>
+  return <Media search="batman" type="movie" />
 }

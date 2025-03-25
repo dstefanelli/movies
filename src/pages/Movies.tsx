@@ -1,3 +1,5 @@
+import Media from "../features/media/Media"
+
 export default function Movies() {
-  return <h1>Movies</h1>
+  return <Media search="jurassic" type="movie" />
 }
